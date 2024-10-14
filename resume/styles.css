@@ -1,0 +1,41 @@
+.format {
+    width: 50%;
+    background-color: seagreen;
+    margin: auto;
+    padding: 50px;
+    max-width: 500px;
+}
+.headerone {
+    align-items: left;
+}
+body {
+    font-family: monospace; 
+    padding: 50px; 
+    background-image: url("UC.jpg"); 
+    background-size: 100%;
+    font-size: large;
+    
+}
+div {
+    align-content: center;
+}
+.ako {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+.loc {
+    margin-bottom: -5px;
+    text-align: center;
+    margin-top: 5px;
+}
+.icon {
+    display: block;
+    width: 50px;
+    height: 50px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: -75px;
+    
+}
