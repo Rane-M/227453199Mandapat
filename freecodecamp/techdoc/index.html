@@ -11,12 +11,12 @@
         <h1 class="title">Getting Started with Git</h1>
         <nav id="main-navigation">
             <ul class="topics">
-                <li><a href="#introduction" class="topics">Introduction</a></li>
-                <li><a href="#installation" class="topics">Installation</a></li>
-                <li><a href="#basic-commands" class="topics">Basic Commands</a></li>
-                <li><a href="#branching" class="topics">Branching</a></li>
-                <li><a href="#contributing" class="topics">Contributing</a></li>
-                <li><a href="#resources" class="topics">Resources</a></li>
+                <li><a href="#introduction" class="t-link">Introduction</a></li>
+                <li><a href="#installation" class="t-link">Installation</a></li>
+                <li><a href="#basic-commands" class="t-link">Basic Commands</a></li>
+                <li><a href="#branching" class="t-link">Branching</a></li>
+                <li><a href="#contributing" class="t-link">Contributing</a></li>
+                <li><a href="#resources" class="t-link">Resources</a></li>
             </ul>
         </nav>
     </header>
@@ -31,7 +31,7 @@
             <p>Created by Linus Torvalds in 2005, Git has become the most widely used version control system, supporting projects of all sizes. 
                 Whether you are a solo developer or part of a large team, Git enables efficient collaboration and code management.
             </p>
-            <button class="button" onclick="scrollToSection('installation')">Get Started with Git</button>
+            <a href="https://git-scm.com" class="button">Get Started with Git</a>
         </section>
 
         <section id="installation" class="section">
@@ -42,7 +42,7 @@
                 <li><strong>Linux:</strong> Use your package manager <code>sudo apt install git</code> (Debian/Ubuntu).</li>
                 <li><strong>macOS:</strong> Install using Homebrew <code>brew install git</code>.</li>
             </ul>
-            <button class="button" onclick="scrollToSection('basic-commands')">Basic Commands</button>
+            <a href="https://git-scm.com/book/en/v2/Getting-Started-Installing-Git" class="button">Basic Commands</a>
         </section>
 
         <section id="basic-commands" class="section">
@@ -56,7 +56,7 @@
                 <li><code>git commit -m "description"</code> - Commits staged changes with user description or message</li>
                 <li><code>git push</code> - Pushes changes to a remote repository</li>
             </ul>
-            <button class="button" onclick="scrollToSection('branching')">Branching</button>
+            <a href=""></a>
         </section>
 
         <section id="branching" class="section">
@@ -69,13 +69,13 @@
                 <li><code>git checkout [branch-name]</code> - Switches to the specified branch.</li>
                 <li><code>git merge [branch-name]</code> - Merges changes from the selected brancg into the current branch.</li>
             </ul>
-            <button class="button" onclick="scrollToSection('contributing')">Contributing</button>
+            <button class="button" onclick="redirectToPage('https://www.atlassian.com/git/tutorials/using-branches')">Contributing</button>
         </section>
 
         <section id="contributing" class="section">
             <h2 class="section-title">Contributing</h2>
             <p>If you'd like to contribute to a project, fork the repository and submit a pull request with your changes.</p>
-            <button class="button" onclick="scrollToSelection('resources')">Resources</button>
+            <button class="button" onclick="redirectToPage('https://guides.github.com/activities/forking/')">Resources</button>
         </section>
 
         <section id="resources" class="section">
